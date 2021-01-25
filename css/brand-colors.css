@@ -1,45 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 3%;
-  background-color: #f0f8ff;
-}
-
-h1,
-h2 {
-  text-transform: uppercase;
-  font-family: Roboto;
-  font-weight: 700;
-}
-
-h1 {
-  font-size: 35px;
-  border-bottom: 4px solid #d3d3d3;
-  padding-bottom: 5px;
-  display: inline-block;
-}
-
-h2 {
-  font-size: 25px;
-}
-
-.divider {
-  height: 10px;
-  width: 100%;
-  background-color: red;
-}
-
-/* BRAND COLORS */
-
-.brand-colors {
-  background-color: white;
-  padding: 4%;
-}
-
-.brand-colors h1 {
-  margin: 0;
+.button-styles h1 {
+  margin-bottom: 20px;
 }
 
 .brand-colors .content {

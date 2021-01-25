@@ -1,0 +1,89 @@
+.button-styles h1 {
+  margin-bottom: 20px;
+}
+
+.button-styles .content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 20px;
+}
+
+.button-styles .content div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.button-styles h3 {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.button-styles button {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  color: white;
+  background-color: #6495ed;
+
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.button-styles button:hover {
+  background-color: #b0c4de;
+}
+
+.button-styles .hover {
+  background-color: #b0c4de;
+}
+
+.button-styles button:active {
+  background-color: #4787ff;
+}
+
+.button-styles .active {
+  background-color: #4787ff;
+}
+
+button[disabled='disabled'],
+button:disabled {
+  background-color: lightgrey;
+  pointer-events: none;
+}
+
+.button-styles .warning {
+  background-color: #ff7f50;
+}
+
+.button-styles .warning:hover {
+  background-color: #fdb093;
+}
+
+.button-styles .warning:active {
+  background-color: #ff7c4d;
+}
+
+.button-styles .positive {
+  background-color: #ffdab9;
+}
+
+.button-styles .positive:hover {
+  background-color: #fcbf8a;
+}
+
+.button-styles .positive:active {
+  background-color: #ffa95e;
+}
+
+.button-styles .long {
+  width: 300px;
+}
