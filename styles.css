@@ -4,7 +4,7 @@
 
 body {
   margin: 3%;
-  background-color: rgba(217, 245, 255, 0.719);
+  background-color: #f0f8ff;
 }
 
 h1,
@@ -16,7 +16,7 @@ h2 {
 
 h1 {
   font-size: 35px;
-  border-bottom: 4px solid lightgrey;
+  border-bottom: 4px solid #d3d3d3;
   padding-bottom: 5px;
   display: inline-block;
 }
@@ -46,25 +46,18 @@ h2 {
   display: flex;
 }
 
-.brand-colors .primary,
-.brand-colors .secondary {
-  flex: 1;
-}
-
-.brand-colors .primary {
+.brand-colors .content section:first-child {
   margin-right: 50px;
 }
 
 .brand-colors .colors {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-right: 8px;
+  flex-flow: row wrap;
+  padding-right: 20px;
 }
 
 .brand-colors .single-color {
-  flex: 1;
-  margin-right: 8px;
+  margin-right: 20px;
 }
 
 .brand-colors .color {
@@ -91,8 +84,51 @@ h2 {
   text-transform: uppercase;
 }
 
-/* SINGLE COLORS */
+/* PRIMARY COLORS */
 
-.blue {
-  background-color: blue;
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+.alice-blue {
+  background-color: #f0f8ff;
+}
+
+.light-grey {
+  background-color: #d3d3d3;
+}
+
+.cornflower-blue {
+  background-color: #6495ed;
+}
+
+/* SECONDARY COLORS */
+
+.coral {
+  background-color: #ff7f50;
+}
+
+.lemon-chiffon {
+  background-color: #fffacd;
+}
+
+.light-steel-blue {
+  background-color: #b0c4de;
+}
+
+.medium-orchid {
+  background-color: #ba55d3;
+}
+
+.peach-puff {
+  background-color: #ffdab9;
+}
+
+.teal {
+  background-color: #008080;
 }
