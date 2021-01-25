@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3%;
+  background-color: rgba(217, 245, 255, 0.719);
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 35px;
+  border-bottom: 4px solid lightgrey;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.divider {
+  height: 10px;
+  width: 100%;
+  background-color: red;
+}
+
+/* BRAND COLORS */
+
+.brand-colors {
+  background-color: white;
+  padding: 4%;
+}
+
+.brand-colors h1 {
+  margin: 0;
+}
+
+.brand-colors .content {
+  display: flex;
+}
+
+.brand-colors .primary,
+.brand-colors .secondary {
+  flex: 1;
+}
+
+.brand-colors .primary {
+  margin-right: 50px;
+}
+
+.brand-colors .colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 8px;
+}
+
+.brand-colors .single-color {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.brand-colors .color {
+  width: 150px;
+  height: 100px;
+}
+
+.brand-colors .description {
+  margin: 20px 0;
+}
+
+.brand-colors .description p {
+  margin: 0;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.brand-colors .description p:first-child {
+  margin: 2px 0;
+  font-weight: 600;
+}
+
+.brand-colors .description p:last-child {
+  text-transform: uppercase;
+}
+
+/* SINGLE COLORS */
+
+.blue {
+  background-color: blue;
+}
